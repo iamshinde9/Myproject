@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test_All(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="pageTest.CheckOutPageTest">
+        <methods>
+          <include name="browser"/>
+          <include name="verifyInformation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- pageTest.CheckOutPageTest -->
+      <class name="pageTest.ProductPageTest">
+        <methods>
+          <include name="gotocartWithFirstProduct"/>
+          <include name="verifyaddtocartProduct"/>
+          <include name="browser"/>
+          <include name="teardown"/>
+          <include name="varifyCartLogo"/>
+        </methods>
+      </class> <!-- pageTest.ProductPageTest -->
+      <class name="pageTest.ConfirmationPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="confirmPage"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- pageTest.ConfirmationPageTest -->
+      <class name="pageTest.CartPageTest">
+        <methods>
+          <include name="verifyremovebutton"/>
+          <include name="proceedtocheckout"/>
+          <include name="browser"/>
+          <include name="verifycontinueshoppingbutton"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- pageTest.CartPageTest -->
+      <class name="pageTest.LoginPageTest">
+        <methods>
+          <include name="verifyLog"/>
+          <include name="browser"/>
+          <include name="LoginTest1"/>
+          <include name="teardown"/>
+          <include name="verifyTitle"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- pageTest.LoginPageTest -->
+      <class name="pageTest.CheckOutOverviewPageTest">
+        <methods>
+          <include name="clickfinishbutton"/>
+          <include name="browser"/>
+          <include name="teardown"/>
+          <include name="verifypaymentinfo"/>
+          <include name="verifyshippinginfo"/>
+        </methods>
+      </class> <!-- pageTest.CheckOutOverviewPageTest -->
+    </classes>
+  </test> <!-- Test_All(failed) -->
+</suite> <!-- Failed suite [Suite] -->

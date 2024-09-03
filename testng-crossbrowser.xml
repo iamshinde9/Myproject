@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="ChromeBrowserTesting">
+<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="pageTest.ProductPageTest"/>
+      <class name="pageTest.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test thread-count="5" name="FireFoxBrowserTesting">
+<parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="pageTest.ProductPageTest"/>
+      <class name="pageTest.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<!-- he cross borswer aahe so sequence ni exacute honar first chrome than firefox -->

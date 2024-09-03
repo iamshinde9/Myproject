@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Ecommerce]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="FirefoxTesing(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="pageTest.LoginPageTest">
+        <methods>
+          <include name="browser"/>
+          <include name="LoginTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- pageTest.LoginPageTest -->
+    </classes>
+  </test> <!-- FirefoxTesing(failed) -->
+</suite> <!-- Failed suite [Ecommerce] -->

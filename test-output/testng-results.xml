@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="18" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-03T22:34:21 LINT" name="E-commerce" finished-at="2024-09-03T22:38:50 LINT" duration-ms="269190">
+    <groups>
+      <group name="Sanity">
+        <method signature="CartPageTest.verifyremovebutton()[pri:0, instance:pageTest.CartPageTest@6ed3ccb2]" name="verifyremovebutton" class="pageTest.CartPageTest"/>
+        <method signature="CheckOutOverviewPageTest.verifypaymentinfo()[pri:0, instance:pageTest.CheckOutOverviewPageTest@74e52ef6]" name="verifypaymentinfo" class="pageTest.CheckOutOverviewPageTest"/>
+        <method signature="LoginPageTest.LoginTest()[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" name="LoginTest" class="pageTest.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyLog()[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" name="verifyLog" class="pageTest.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyLoginButton()[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" name="verifyLoginButton" class="pageTest.LoginPageTest"/>
+        <method signature="ProductPageTest.varifyCartLogo()[pri:0, instance:pageTest.ProductPageTest@c730b35]" name="varifyCartLogo" class="pageTest.ProductPageTest"/>
+        <method signature="LoginPageTest.LoginTest1(java.lang.String,java.lang.String)[pri:5, instance:pageTest.LoginPageTest@62ddbd7e]" name="LoginTest1" class="pageTest.LoginPageTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="CartPageTest.proceedtocheckout()[pri:0, instance:pageTest.CartPageTest@6ed3ccb2]" name="proceedtocheckout" class="pageTest.CartPageTest"/>
+        <method signature="CheckOutOverviewPageTest.clickfinishbutton()[pri:0, instance:pageTest.CheckOutOverviewPageTest@74e52ef6]" name="clickfinishbutton" class="pageTest.CheckOutOverviewPageTest"/>
+        <method signature="CheckOutPageTest.verifyInformation()[pri:0, instance:pageTest.CheckOutPageTest@15de0b3c]" name="verifyInformation" class="pageTest.CheckOutPageTest"/>
+        <method signature="ConfirmationPageTest.confirmPage()[pri:0, instance:pageTest.ConfirmationPageTest@1a677343]" name="confirmPage" class="pageTest.ConfirmationPageTest"/>
+        <method signature="ProductPageTest.gotocartWithFirstProduct()[pri:0, instance:pageTest.ProductPageTest@c730b35]" name="gotocartWithFirstProduct" class="pageTest.ProductPageTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="CartPageTest.verifycontinueshoppingbutton()[pri:0, instance:pageTest.CartPageTest@6ed3ccb2]" name="verifycontinueshoppingbutton" class="pageTest.CartPageTest"/>
+        <method signature="CheckOutOverviewPageTest.verifyshippinginfo()[pri:0, instance:pageTest.CheckOutOverviewPageTest@74e52ef6]" name="verifyshippinginfo" class="pageTest.CheckOutOverviewPageTest"/>
+        <method signature="LoginPageTest.verifyTitle()[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" name="verifyTitle" class="pageTest.LoginPageTest"/>
+        <method signature="ProductPageTest.verifyaddtocartProduct()[pri:0, instance:pageTest.ProductPageTest@c730b35]" name="verifyaddtocartProduct" class="pageTest.ProductPageTest"/>
+        <method signature="LoginPageTest.LoginTest1(java.lang.String,java.lang.String)[pri:5, instance:pageTest.LoginPageTest@62ddbd7e]" name="LoginTest1" class="pageTest.LoginPageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-09-03T22:34:21 LINT" name="Regression-Testing" finished-at="2024-09-03T22:38:50 LINT" duration-ms="269190">
+      <class name="pageTest.CartPageTest">
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.CartPageTest@6ed3ccb2]" started-at="2024-09-03T22:37:32 LINT" name="browser" finished-at="2024-09-03T22:37:39 LINT" duration-ms="7116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="proceedtocheckout()[pri:0, instance:pageTest.CartPageTest@6ed3ccb2]" started-at="2024-09-03T22:37:39 LINT" name="proceedtocheckout" finished-at="2024-09-03T22:37:43 LINT" duration-ms="3904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedtocheckout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.CartPageTest@6ed3ccb2]" started-at="2024-09-03T22:37:43 LINT" name="teardown" finished-at="2024-09-03T22:37:43 LINT" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.CartPageTest@6ed3ccb2]" started-at="2024-09-03T22:37:43 LINT" name="browser" finished-at="2024-09-03T22:37:48 LINT" duration-ms="4984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="verifycontinueshoppingbutton()[pri:0, instance:pageTest.CartPageTest@6ed3ccb2]" started-at="2024-09-03T22:37:48 LINT" name="verifycontinueshoppingbutton" finished-at="2024-09-03T22:37:52 LINT" duration-ms="3693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycontinueshoppingbutton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.CartPageTest@6ed3ccb2]" started-at="2024-09-03T22:37:52 LINT" name="teardown" finished-at="2024-09-03T22:37:52 LINT" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.CartPageTest@6ed3ccb2]" started-at="2024-09-03T22:37:52 LINT" name="browser" finished-at="2024-09-03T22:37:57 LINT" duration-ms="5213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="verifyremovebutton()[pri:0, instance:pageTest.CartPageTest@6ed3ccb2]" started-at="2024-09-03T22:37:57 LINT" name="verifyremovebutton" finished-at="2024-09-03T22:38:01 LINT" duration-ms="3670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyremovebutton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.CartPageTest@6ed3ccb2]" started-at="2024-09-03T22:38:01 LINT" name="teardown" finished-at="2024-09-03T22:38:01 LINT" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pageTest.CartPageTest -->
+      <class name="pageTest.ProductPageTest">
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.ProductPageTest@c730b35]" started-at="2024-09-03T22:34:22 LINT" name="browser" finished-at="2024-09-03T22:34:38 LINT" duration-ms="15809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="gotocartWithFirstProduct()[pri:0, instance:pageTest.ProductPageTest@c730b35]" started-at="2024-09-03T22:34:38 LINT" name="gotocartWithFirstProduct" finished-at="2024-09-03T22:34:58 LINT" duration-ms="20455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotocartWithFirstProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.ProductPageTest@c730b35]" started-at="2024-09-03T22:34:58 LINT" name="teardown" finished-at="2024-09-03T22:35:01 LINT" duration-ms="2329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.ProductPageTest@c730b35]" started-at="2024-09-03T22:35:01 LINT" name="browser" finished-at="2024-09-03T22:35:10 LINT" duration-ms="9577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="varifyCartLogo()[pri:0, instance:pageTest.ProductPageTest@c730b35]" started-at="2024-09-03T22:35:10 LINT" name="varifyCartLogo" finished-at="2024-09-03T22:35:11 LINT" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyCartLogo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.ProductPageTest@c730b35]" started-at="2024-09-03T22:35:11 LINT" name="teardown" finished-at="2024-09-03T22:35:11 LINT" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.ProductPageTest@c730b35]" started-at="2024-09-03T22:35:11 LINT" name="browser" finished-at="2024-09-03T22:35:20 LINT" duration-ms="9234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="verifyaddtocartProduct()[pri:0, instance:pageTest.ProductPageTest@c730b35]" started-at="2024-09-03T22:35:20 LINT" name="verifyaddtocartProduct" finished-at="2024-09-03T22:35:22 LINT" duration-ms="1483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyaddtocartProduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.ProductPageTest@c730b35]" started-at="2024-09-03T22:35:22 LINT" name="teardown" finished-at="2024-09-03T22:35:23 LINT" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pageTest.ProductPageTest -->
+      <class name="pageTest.LoginPageTest">
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:35:23 LINT" name="browser" finished-at="2024-09-03T22:35:28 LINT" duration-ms="4852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="verifyLog()[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:35:28 LINT" name="verifyLog" finished-at="2024-09-03T22:35:30 LINT" duration-ms="1856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLog -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:35:30 LINT" name="teardown" finished-at="2024-09-03T22:35:30 LINT" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:35:30 LINT" name="browser" finished-at="2024-09-03T22:35:36 LINT" duration-ms="5748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="verifyLoginButton()[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:35:36 LINT" name="verifyLoginButton" finished-at="2024-09-03T22:35:36 LINT" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:35:36 LINT" name="teardown" finished-at="2024-09-03T22:35:36 LINT" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:35:36 LINT" name="browser" finished-at="2024-09-03T22:35:41 LINT" duration-ms="4300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="verifyTitle()[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:35:41 LINT" name="verifyTitle" finished-at="2024-09-03T22:35:42 LINT" duration-ms="1310" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Swa Labs] but found [Swag Labs]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Swa Labs] but found [Swag Labs]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at pageTest.LoginPageTest.verifyTitle(LoginPageTest.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:35:42 LINT" name="teardown" finished-at="2024-09-03T22:35:42 LINT" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="LoginTest()[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:35:42 LINT" name="LoginTest" finished-at="2024-09-03T22:35:42 LINT" depends-on-methods="pageTest.LoginPageTest.verifyTitle" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method pageTest.LoginPageTest.LoginTest() on instance pageTest.LoginPageTest@62ddbd7e depends on not successfully finished methods 
+[pageTest.LoginPageTest.verifyTitle() on instance pageTest.LoginPageTest@62ddbd7e]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method pageTest.LoginPageTest.LoginTest() on instance pageTest.LoginPageTest@62ddbd7e depends on not successfully finished methods 
+[pageTest.LoginPageTest.verifyTitle() on instance pageTest.LoginPageTest@62ddbd7e]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:35:46 LINT" name="browser" finished-at="2024-09-03T22:35:54 LINT" duration-ms="7458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="LoginTest1(java.lang.String,java.lang.String)[pri:5, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:35:54 LINT" name="LoginTest1" data-provider="logindata" finished-at="2024-09-03T22:35:57 LINT" duration-ms="3397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:35:57 LINT" name="teardown" finished-at="2024-09-03T22:35:57 LINT" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:35:57 LINT" name="browser" finished-at="2024-09-03T22:36:03 LINT" duration-ms="5809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="LoginTest1(java.lang.String,java.lang.String)[pri:5, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:36:03 LINT" name="LoginTest1" data-provider="logindata" finished-at="2024-09-03T22:36:08 LINT" duration-ms="5216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:36:08 LINT" name="teardown" finished-at="2024-09-03T22:36:09 LINT" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:36:09 LINT" name="browser" finished-at="2024-09-03T22:36:22 LINT" duration-ms="13132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="LoginTest1(java.lang.String,java.lang.String)[pri:5, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:36:22 LINT" name="LoginTest1" data-provider="logindata" finished-at="2024-09-03T22:36:25 LINT" duration-ms="3414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:36:25 LINT" name="teardown" finished-at="2024-09-03T22:36:26 LINT" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:36:26 LINT" name="browser" finished-at="2024-09-03T22:36:34 LINT" duration-ms="8541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="LoginTest1(java.lang.String,java.lang.String)[pri:5, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:36:34 LINT" name="LoginTest1" data-provider="logindata" finished-at="2024-09-03T22:36:41 LINT" duration-ms="7049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:36:41 LINT" name="teardown" finished-at="2024-09-03T22:36:43 LINT" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:36:43 LINT" name="browser" finished-at="2024-09-03T22:36:54 LINT" duration-ms="10976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="LoginTest1(java.lang.String,java.lang.String)[pri:5, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:36:54 LINT" name="LoginTest1" data-provider="logindata" finished-at="2024-09-03T22:36:57 LINT" duration-ms="3395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.LoginPageTest@62ddbd7e]" started-at="2024-09-03T22:36:57 LINT" name="teardown" finished-at="2024-09-03T22:36:58 LINT" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pageTest.LoginPageTest -->
+      <class name="pageTest.CheckOutOverviewPageTest">
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.CheckOutOverviewPageTest@74e52ef6]" started-at="2024-09-03T22:36:58 LINT" name="browser" finished-at="2024-09-03T22:37:06 LINT" duration-ms="7687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="clickfinishbutton()[pri:0, instance:pageTest.CheckOutOverviewPageTest@74e52ef6]" started-at="2024-09-03T22:37:06 LINT" name="clickfinishbutton" finished-at="2024-09-03T22:37:11 LINT" duration-ms="4632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickfinishbutton -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.CheckOutOverviewPageTest@74e52ef6]" started-at="2024-09-03T22:37:11 LINT" name="teardown" finished-at="2024-09-03T22:37:11 LINT" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.CheckOutOverviewPageTest@74e52ef6]" started-at="2024-09-03T22:37:11 LINT" name="browser" finished-at="2024-09-03T22:37:18 LINT" duration-ms="6631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="verifypaymentinfo()[pri:0, instance:pageTest.CheckOutOverviewPageTest@74e52ef6]" started-at="2024-09-03T22:37:18 LINT" name="verifypaymentinfo" finished-at="2024-09-03T22:37:22 LINT" duration-ms="4087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypaymentinfo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.CheckOutOverviewPageTest@74e52ef6]" started-at="2024-09-03T22:37:22 LINT" name="teardown" finished-at="2024-09-03T22:37:22 LINT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.CheckOutOverviewPageTest@74e52ef6]" started-at="2024-09-03T22:37:22 LINT" name="browser" finished-at="2024-09-03T22:37:27 LINT" duration-ms="5039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="verifyshippinginfo()[pri:0, instance:pageTest.CheckOutOverviewPageTest@74e52ef6]" started-at="2024-09-03T22:37:27 LINT" name="verifyshippinginfo" finished-at="2024-09-03T22:37:32 LINT" duration-ms="4364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyshippinginfo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.CheckOutOverviewPageTest@74e52ef6]" started-at="2024-09-03T22:37:32 LINT" name="teardown" finished-at="2024-09-03T22:37:32 LINT" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pageTest.CheckOutOverviewPageTest -->
+      <class name="pageTest.ConfirmationPageTest">
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.ConfirmationPageTest@1a677343]" started-at="2024-09-03T22:38:01 LINT" name="browser" finished-at="2024-09-03T22:38:09 LINT" duration-ms="7243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="confirmPage()[pri:0, instance:pageTest.ConfirmationPageTest@1a677343]" started-at="2024-09-03T22:38:09 LINT" name="confirmPage" finished-at="2024-09-03T22:38:38 LINT" duration-ms="29761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.ConfirmationPageTest@1a677343]" started-at="2024-09-03T22:38:38 LINT" name="teardown" finished-at="2024-09-03T22:38:39 LINT" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pageTest.ConfirmationPageTest -->
+      <class name="pageTest.CheckOutPageTest">
+        <test-method is-config="true" signature="browser(java.lang.String)[pri:0, instance:pageTest.CheckOutPageTest@15de0b3c]" started-at="2024-09-03T22:38:39 LINT" name="browser" finished-at="2024-09-03T22:38:45 LINT" duration-ms="6698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="verifyInformation()[pri:0, instance:pageTest.CheckOutPageTest@15de0b3c]" started-at="2024-09-03T22:38:45 LINT" name="verifyInformation" finished-at="2024-09-03T22:38:50 LINT" duration-ms="4189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInformation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pageTest.CheckOutPageTest@15de0b3c]" started-at="2024-09-03T22:38:50 LINT" name="teardown" finished-at="2024-09-03T22:38:50 LINT" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pageTest.CheckOutPageTest -->
+    </test> <!-- Regression-Testing -->
+  </suite> <!-- E-commerce -->
+</testng-results>
